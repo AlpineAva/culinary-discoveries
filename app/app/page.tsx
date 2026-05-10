@@ -96,7 +96,7 @@ export default function Home() {
           className="text-sm tracking-widest uppercase mt-6"
           style={{ color: "#c2956b" }}
         >
-          From the family who loved your food the most
+          From the family who loves your food the most
         </p>
       </header>
 
