@@ -101,7 +101,7 @@ export default function Home() {
       </header>
 
       {/* ── Chapters ──────────────────────────────────────────── */}
-      <main className="max-w-4xl mx-auto px-6 pb-32 space-y-4">
+      <main className="max-w-4xl mx-auto px-6 pb-8 space-y-4">
 
         {/* Chapter I */}
         <section className="py-16">
@@ -346,6 +346,65 @@ export default function Home() {
                 🦃 🎄 <em>&ldquo;A holiday meal is not a meal. It is an event — an expression of love.&rdquo;</em> 🎄 🦃
               </p>
             </div>
+          </div>
+        </section>
+
+        <SectionDivider />
+
+        {/* Chapter V */}
+        <section className="pt-16 pb-8">
+          <div className="text-center mb-12">
+            <p className="text-xs tracking-[0.3em] uppercase" style={{ color: "#c2956b" }}>
+              Chapter V
+            </p>
+            <h2
+              className="text-3xl font-bold mt-2"
+              style={{ fontFamily: "var(--font-playfair), Georgia, serif", color: "#3d2b1f" }}
+            >
+              A Chef at Heart
+            </h2>
+          </div>
+
+          <div className="space-y-5 max-w-2xl mx-auto">
+            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+              There is a word for someone who transforms simple ingredients into something
+              that stays with you for a lifetime. Someone who knows instinctively when to
+              add a little more, when to let something rest, when to trust the recipe and
+              when to ignore it entirely. That word is <em>chef</em> — and it has always
+              applied to Mom, whether she ever claimed the title or not.
+            </p>
+            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+              She chose a different path, of course — a desk, a career, a life built in
+              ways that had nothing to do with a kitchen. And she was wonderful at that too.
+              But food was never far away. It was always there: in the meals she planned,
+              in the dishes she perfected, in the way she talked about flavor the way other
+              people talk about art. Her love for food was never a side note. It was
+              woven into the fabric of our family.
+            </p>
+
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/heart.gif"
+              alt="A heart"
+              className="mx-auto my-6 w-48 h-auto block"
+            />
+
+            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+              We may not have known it at the time — children rarely do — but those meals
+              shaped us into who we are today. The things we reach for in a grocery store, the comfort foods
+              we make when we are tired or sad or far from home, the standard we hold
+              every bowl of soup and holiday dinner up to: all of it traces back to her table. Her culinary
+              discoveries became our culinary inheritance.
+            </p>
+            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+              So here is what we want her to know: we noticed. We were paying attention,
+              even when it did not look like it. Every meal was a gift, and we are
+              grateful — not just for the food, but for what it taught us about care, and
+              patience, and the quiet way love can show up on a plate.
+            </p>
+            <p className="text-base leading-8 text-center mt-8" style={{ color: "#7a6552" }}>
+              👩‍🍳 <em>&ldquo;The best chefs are the ones who cook for love, not for recognition.&rdquo;</em> 👩‍🍳
+            </p>
           </div>
         </section>
 
