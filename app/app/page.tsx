@@ -288,7 +288,7 @@ export default function Home() {
                 When I started growing food for the family, nothing prepared me for the
                 moment I first tasted Ambrosia sweet corn fresh from the garden. The name
                 turned out to be no exaggeration — it genuinely tasted like the food of the
-                gods. Sweet and
+                gods.
               </p>
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
                 Whatever we didn't eat fresh, Mom would make bags upon bags of freezer corn,
