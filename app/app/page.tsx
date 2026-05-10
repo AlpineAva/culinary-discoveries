@@ -120,13 +120,21 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
             <div className="space-y-5">
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-                TODO
+                Nobody really knows where it came from. Maybe it was Great Grandma&apos;s
+                homemade ravioli. Maybe it was Diana's baking. Maybe it was simply in her genes, 
+                something passed down quietly through generations of people who understood that
+                feeding others is its own kind of love.
               </p>
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-                 TODO
+                Or maybe it was that summer job in the ice cream shop she did as a kid.
+                Maybe that long summer of scooping cone after cone, elbow-deep in a freezer until
+                her skin hurt and her muscles ached, lit something in her that no amount of freezer
+                burn could put out. A love for food.  A food affair. But however it started, culinary 
+                discovery became one of the great driving loves of her life. And lucky for us, 
+                she never kept it to herself.
               </p>
               <p className="text-base italic leading-8" style={{ color: "#7a6552" }}>
-                &ldquo;TODO&rdquo;
+                &ldquo;Some people are born knowing that food is more than fuel. She was one of them.&rdquo;
               </p>
             </div>
             <div className="space-y-4">
@@ -284,7 +292,7 @@ export default function Home() {
                 generous scoop of vanilla ice cream melting alongside it.
               </p>
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-                There was no better summer treat. It was the taste of the an expert baker and
+                There was no better summer treat. It was the taste of an expert baker and
                 a summer strawberry patch distilled into one perfect slice.
               </p>
               <p className="text-base leading-8" style={{ color: "#7a6552" }}>
@@ -301,6 +309,61 @@ export default function Home() {
           <div className="text-center mb-12">
             <p className="text-xs tracking-[0.3em] uppercase" style={{ color: "#c2956b" }}>
               Chapter IV
+            </p>
+            <h2
+              className="text-3xl font-bold mt-2"
+              style={{ fontFamily: "var(--font-playfair), Georgia, serif", color: "#3d2b1f" }}
+            >
+              The Gadget Drawer
+            </h2>
+          </div>
+
+          <div className="clearfix max-w-2xl mx-auto space-y-5">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/gadget_drawer.jpg"
+              alt="Mom's kitchen gadget drawer"
+              className="float-right w-96 h-auto ml-8 mb-4 rounded-sm"
+              style={{
+                border: "1px solid #c9aa87",
+                boxShadow: "3px 3px 14px rgba(61, 43, 31, 0.10)",
+              }}
+            />
+            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+              At some point, every serious cook develops a relationship with their tools.
+              For Mom, this meant a kitchen full of gadgets — some essential, some
+              mysterious, and a remarkable number that none of us could identify on sight.
+              There was always a drawer, or a cabinet, or a hooks-on-the-wall situation
+              that seemed to multiply when you turned your back.
+            </p>
+            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+              We learned early that if something needed doing in the kitchen and you
+              didn&apos;t know how to do it, Mom probably had a gadget for it. A
+              do-hickey for this, a whatsit for that. And if she didn&apos;t have one yet,
+              she would. We stopped being surprised. We started being impressed. The basement
+              became like the Bat Cave, but if Batman was an Italian mom who loved food.
+            </p>
+            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+              It became a family joke, the kind that funniest because it&apos;s true.
+              Someone would mention a kitchen task needing to be done, and there'd be Mom,
+              with one of her new gizmos that does it for you.  Her kitchen was
+              a testament not to excess, but to discovery — to a cook who was always
+              looking for a better way, a sharper edge, a tool that made something
+              wonderful just a little more possible.
+            </p>
+            <p className="text-base leading-8" style={{ color: "#7a6552" }}>
+              🍴 <em>&ldquo;Hey, we need this gadget for the kitchen.&rdquo; &nbsp;/&nbsp; &ldquo;We&apos;re seeing Mom next week — she probably has six.&rdquo;</em> 🍴
+            </p>
+          </div>
+        </section>
+
+        <SectionDivider />
+
+        {/* Chapter V */}
+        <section className="py-16">
+          <div className="text-center mb-12">
+            <p className="text-xs tracking-[0.3em] uppercase" style={{ color: "#c2956b" }}>
+              Chapter V
             </p>
             <h2
               className="text-3xl font-bold mt-2"
@@ -332,8 +395,9 @@ export default function Home() {
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
                 The centerpiece was often a Chateaubriand — a roast that commanded respect
                 from everyone in the room. Alongside it came fresh-baked rolls, golden and
-                impossibly soft, pulled from the oven just before dinner. And my favorite dessert 
-                I discovered at Mom's holiday meals? The chocolate ganache!
+                impossibly soft, pulled from the oven just before dinner. And some of our
+                favorite dessert discoveries at Mom's holiday meals? The chocolate ganache
+                and key lime pie!
               </p>
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
                 And always, without fail, the tortellini. Never out of place, always
@@ -350,11 +414,11 @@ export default function Home() {
 
         <SectionDivider />
 
-        {/* Chapter V */}
+        {/* Chapter VI */}
         <section className="pt-16 pb-8">
           <div className="text-center mb-12">
             <p className="text-xs tracking-[0.3em] uppercase" style={{ color: "#c2956b" }}>
-              Chapter V
+              Chapter VI
             </p>
             <h2
               className="text-3xl font-bold mt-2"
