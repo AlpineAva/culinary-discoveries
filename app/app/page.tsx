@@ -282,17 +282,20 @@ export default function Home() {
                 className="text-xl font-semibold"
                 style={{ fontFamily: "var(--font-playfair), Georgia, serif", color: "#3d2b1f" }}
               >
-                Ambrosia Corn
+                Summer Barbeque & Garden Sweet Corn
               </h3>
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-                When I started growing food for the family, nothing prepared me for the
-                moment I first tasted Ambrosia sweet corn fresh from the garden. The name
-                turned out to be no exaggeration — it genuinely tasted like the food of the
-                gods.
+                Mom&apos;s dedication to great food in the kitchen was contagious. It made
+                you want to bring her equally great ingredients to work with. So when I
+                started growing a garden, one of the first things on the list was sweet corn —
+                paired perfectly with her hamburgers fresh off the grill, it was something
+                worthy of her summer barbecues.
               </p>
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-                Whatever we didn't eat fresh, Mom would make bags upon bags of freezer corn,
-                which was always a welcome side dish for one of Mom's weeknight meals.
+                Whatever corn we didn&apos;t eat fresh, Mom would make into bags of freezer corn
+                to last through the year — a welcome reminder of her summer dinner tables,
+                and the way Mom's love for cooking inspired us to discover a love
+                for food in our own unique ways.
               </p>
             </div>
           </div>
@@ -416,7 +419,7 @@ export default function Home() {
                 }}
               />
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-                It became a family joke, the kind that funniest because it&apos;s true.
+                It became a family joke, the kind that's funniest because it&apos;s true.
                 Someone would mention a kitchen task needing to be done, and there'd be Mom,
                 with one of her new gizmos that does it for you.  Her kitchen was
                 a testament to discovery — to a cook who was always
