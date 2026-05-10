@@ -166,37 +166,42 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="clearfix max-w-2xl mx-auto space-y-5">
+          <div className="clearfix">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/birthday_cake.gif"
               alt="A birthday cake"
               className="float-left w-56 h-auto mr-8 mb-4 rounded-sm"
             />
-            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-              Every kid has a birthday cake. Not every kid is lucky enough to have a mom
-              who makes a Boston cream pie from scratch. The first time I tasted it, I
-              didn&apos;t know what it was — only that it was the best thing I had ever
-              eaten. A cloud of vanilla pastry cream sandwiched between two golden cake
-              layers, the whole thing draped in a dark chocolate ganache that set just
-              right. It was a revelation.
-            </p>
-            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-              After that, there was really only one answer to the question of what I
-              wanted for my birthday. Every year, without exception. Friends could have
-              their sheet cakes with the frosting rosettes — I had discovered something
-              better, and I was not letting it go. Mom made it every time, without complaint,
-              and it was perfect every time.
-            </p>
-            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-              It is one of those foods that is permanently tied to a feeling — the specific
-              joy of a birthday morning, the anticipation of knowing exactly what was
-              coming after dinner. A culinary discovery that became a birthday tradition,
-              and a tradition that became one of the great gifts of growing up.
-            </p>
-            <p className="text-base leading-8" style={{ color: "#7a6552" }}>
-              🎂 <em>&ldquo;What do you want for your birthday?&rdquo; The answer was always the same. It was always Boston cream pie.&rdquo;</em> 🎂
-            </p>
+            <div className="space-y-5">
+              <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+                Every kid has a birthday cake. Not every kid is lucky enough to have a mom
+                who makes a turtle cheesecake or Boston cream pie for their birthday.
+                Not a store-bought sheet cake with plastic roses, but something made from scratch,
+                made with intention. She understood, that a birthday dessert wasn&apos;t just dessert.
+                It was a statement. It was her way of saying: <em>you are worth the effort.</em>
+              </p>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/turtle_cheesecake.gif"
+                alt="A turtle cheesecake with caramel and pecans"
+                className="float-right w-56 h-auto ml-8 mb-4 rounded-sm"
+              />
+              <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+                After that first Boston cream pie, there was really only one answer to
+                the question of what I wanted for my birthday. Every year, without exception.
+                Friends could have their sheet cakes with the frosting rosettes.  Thanks to Mom,
+                we had discovered birthday delicacies that were so much better.
+              </p>
+              <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+                Nobody announced it as a tradition. She just kept doing it — every year,
+                whatever you asked for, she made it. Not something from a box, not a
+                last-minute run to the supermarket, but the real thing, from scratch.
+              </p>
+              <p className="text-base leading-8" style={{ color: "#7a6552" }}>
+                🎂 <em>&ldquo;We got something made from scratch, made with love.&rdquo;</em> 🎂
+              </p>
+            </div>
           </div>
         </section>
 
@@ -283,12 +288,11 @@ export default function Home() {
                 When I started growing food for the family, nothing prepared me for the
                 moment I first tasted Ambrosia sweet corn fresh from the garden. The name
                 turned out to be no exaggeration — it genuinely tasted like the food of the
-                gods. Impossibly sweet, milky, and tender in a way that grocery store corn
-                never comes close to.
+                gods. Sweet and
               </p>
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-                Mom would stand at the stove boiling the ears minutes after I&apos;d picked
-                them, insisting that every minute off the stalk mattered. She was right.
+                Whatever we didn't eat fresh, Mom would make bags upon bags of freezer corn,
+                which was always a welcome side dish for one of Mom's weeknight meals.
               </p>
             </div>
           </div>
@@ -329,7 +333,7 @@ export default function Home() {
             <img
               src="/strawberry_pie.gif"
               alt="A fresh strawberry pie with a scoop of ice cream"
-              className="float-right w-56 h-auto ml-8 mb-4 rounded-sm"
+              className="float-right w-80 h-auto ml-8 mb-4 rounded-sm"
               style={{
                 border: "1px solid #c9aa87",
                 boxShadow: "3px 3px 14px rgba(61, 43, 31, 0.10)",
@@ -375,7 +379,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="clearfix max-w-2xl mx-auto space-y-5">
+          <div className="clearfix">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/gadget_drawer.jpg"
@@ -386,31 +390,43 @@ export default function Home() {
                 boxShadow: "3px 3px 14px rgba(61, 43, 31, 0.10)",
               }}
             />
-            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-              At some point, every serious cook develops a relationship with their tools.
-              For Mom, this meant a kitchen full of gadgets — some essential, some
-              mysterious, and a remarkable number that none of us could identify on sight.
-              There was always a drawer, or a cabinet, or a hooks-on-the-wall situation
-              that seemed to multiply when you turned your back.
-            </p>
-            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-              We learned early that if something needed doing in the kitchen and you
-              didn&apos;t know how to do it, Mom probably had a gadget for it. A
-              do-hickey for this, a whatsit for that. And if she didn&apos;t have one yet,
-              she would. We stopped being surprised. We started being impressed. The basement
-              became like the Bat Cave, but if Batman was an Italian mom who loved food.
-            </p>
-            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-              It became a family joke, the kind that funniest because it&apos;s true.
-              Someone would mention a kitchen task needing to be done, and there'd be Mom,
-              with one of her new gizmos that does it for you.  Her kitchen was
-              a testament not to excess, but to discovery — to a cook who was always
-              looking for a better way, a sharper edge, a tool that made something
-              wonderful just a little more possible.
-            </p>
-            <p className="text-base leading-8" style={{ color: "#7a6552" }}>
-              🍴 <em>&ldquo;Hey, we need this gadget for the kitchen.&rdquo; &nbsp;/&nbsp; &ldquo;We&apos;re seeing Mom next week — she probably has six.&rdquo;</em> 🍴
-            </p>
+            <div className="space-y-5">
+              <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+                At some point, every serious cook develops a relationship with their tools.
+                For Mom, this meant a kitchen full of gadgets — some essential, some
+                mysterious, and a remarkable number that none of us could identify on sight.
+                There was always a drawer, or a cabinet, or a hooks-on-the-wall situation
+                that seemed to multiply when you turned your back.
+              </p>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+                We learned early that if something needed doing in the kitchen and you
+                didn&apos;t know how to do it, Mom probably had a gadget for it. A
+                do-hickey for this, a whatsit for that. And if she didn&apos;t have one yet,
+                she would. We stopped being surprised. We started being impressed. The basement
+                became like the Bat Cave, but if Batman was an Italian mom who loved food.
+              </p>
+              <img
+                src="/gadget_cave.jpg"
+                alt="Mom's gadget cave"
+                className="float-left w-128 h-auto mr-8 mb-4 rounded-sm"
+                style={{
+                  border: "1px solid #c9aa87",
+                  boxShadow: "3px 3px 14px rgba(61, 43, 31, 0.10)",
+                }}
+              />
+              <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+                It became a family joke, the kind that funniest because it&apos;s true.
+                Someone would mention a kitchen task needing to be done, and there'd be Mom,
+                with one of her new gizmos that does it for you.  Her kitchen was
+                a testament to discovery — to a cook who was always
+                looking for a better way, a sharper edge, a tool that made something
+                wonderful just a little more possible.
+              </p>
+              <p className="text-base leading-8" style={{ color: "#7a6552" }}>
+                🍴 <em>&ldquo;Hey, we need this gadget for the kitchen.&rdquo; &nbsp;/&nbsp; &ldquo;We&apos;re seeing Mom next week — she probably has six.&rdquo;</em> 🍴
+              </p>
+            </div>
           </div>
         </section>
 
@@ -456,6 +472,18 @@ export default function Home() {
                 favorite dessert discoveries at Mom's holiday meals? The chocolate ganache
                 and key lime pie!
               </p>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/key_lime_pie.gif"
+                alt="Key lime pie"
+                className="float-left w-48 h-auto mr-8 mb-4 rounded-sm"
+              />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/tortellini.gif"
+                alt="Holiday tortellini"
+                className="float-right w-48 h-auto ml-8 mb-4 rounded-sm"
+              />
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
                 And always, without fail, the tortellini. Never out of place, always
                 welcome — because no Italian holiday meal is truly complete without pasta.
@@ -472,7 +500,7 @@ export default function Home() {
         <SectionDivider />
 
         {/* Chapter VII */}
-        <section className="pt-16 pb-8">
+        <section className="py-16">
           <div className="text-center mb-12">
             <p className="text-xs tracking-[0.3em] uppercase" style={{ color: "#c2956b" }}>
               Chapter VII
@@ -485,7 +513,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="space-y-5 max-w-2xl mx-auto">
+          <div className="space-y-5">
             <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
               There is a word for someone who transforms simple ingredients into something
               that stays with you for a lifetime. Someone who knows instinctively when to
@@ -493,6 +521,12 @@ export default function Home() {
               when to ignore it entirely. That word is <em>chef</em> — and it has always
               applied to Mom, whether she ever claimed the title or not.
             </p>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/heart.gif"
+              alt="A heart"
+              className="float-left w-86 h-auto mr-8 mb-4 rounded-sm"
+            />
             <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
               She chose a different path, of course — a desk, a career, a life built in
               ways that had nothing to do with a kitchen. And she was wonderful at that too.
@@ -501,14 +535,6 @@ export default function Home() {
               people talk about art. Her love for food was never a side note. It was
               woven into the fabric of our family.
             </p>
-
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/heart.gif"
-              alt="A heart"
-              className="mx-auto my-6 w-48 h-auto block"
-            />
-
             <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
               We may not have known it at the time — children rarely do — but those meals
               shaped us into who we are today. The things we reach for in a grocery store, the comfort foods
@@ -517,8 +543,8 @@ export default function Home() {
               discoveries became our culinary inheritance.
             </p>
             <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-              So here is what we want her to know: we noticed. We were paying attention,
-              even when it did not look like it. Every meal was a gift, and we are
+              So here is what we want her to know: we were paying attention, we cared, and we
+              felt loved with every bite, even when it did not seem like it. Every meal was a gift, and we are
               grateful — not just for the food, but for what it taught us about care, and
               patience, and the quiet way love can show up on a plate.
             </p>
