@@ -163,17 +163,18 @@ export default function Home() {
                 Of all the culinary discoveries Mom introduced me to, this one may be
                 the most beloved. Tomato soup and noodles — simple, warming, impossibly
                 comforting — became one of my absolute favorite meals from the very first bowl.
-                Because a culinary discovery need not be fancy or prepared by a renowned chef
+                Because a culinary discovery need not be fancy
                 to be meaningful. It just has to be delicious and made with love.
               </p>
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
                 There was never a bad day at school that a steaming bowl of Mom&apos;s "TMS"
                 couldn&apos;t help. Something about the tangy, velvety broth and the chewy
                 delicious noodles made everything problem I had feel smaller and more manageable.
+                Even better when it was paired with a perfectly toasted grilled cheese sandwich!
               </p>
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
                 During my most difficult times in College, this was the dish I would make for myself.
-                It brought me a moments of calm and a taste of home on the days I needed it most.
+                It brought me moments of calm and a taste of home on the days I needed it most.
               </p>
               <p className="text-base leading-8" style={{ color: "#7a6552" }}>
                 ❤️ <em>&ldquo;No bad day was ever so bad that a bowl of tomato soup & noodles couldn&apos;t help.&rdquo;</em> ❤️
@@ -368,7 +369,7 @@ export default function Home() {
             <div className="h-px w-16" style={{ backgroundColor: "#c2956b" }} />
           </div>
           <p className="text-base italic leading-8" style={{ color: "#7a6552" }}>
-            With all the love in the world
+            With all the love in the world.
             <br />
             For all the meals that meant everything.
             <br />
