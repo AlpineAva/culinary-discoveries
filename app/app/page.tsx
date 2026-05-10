@@ -117,7 +117,17 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+          <div className="clearfix">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/ravioli.jpg"
+              alt="Great Grandma's homemade ravioli"
+              className="float-right w-96 h-auto ml-8 mb-4 rounded-sm"
+              style={{
+                border: "1px solid #c9aa87",
+                boxShadow: "3px 3px 14px rgba(61, 43, 31, 0.10)",
+              }}
+            />
             <div className="space-y-5">
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
                 Nobody really knows where it came from. Maybe it was Great Grandma&apos;s
@@ -137,9 +147,6 @@ export default function Home() {
                 &ldquo;Some people are born knowing that food is more than fuel. She was one of them.&rdquo;
               </p>
             </div>
-            <div className="space-y-4">
-              <PhotoPlaceholder label="Photo: The Garden" aspectRatio="4/3" />
-            </div>
           </div>
         </section>
 
@@ -150,6 +157,56 @@ export default function Home() {
           <div className="text-center mb-12">
             <p className="text-xs tracking-[0.3em] uppercase" style={{ color: "#c2956b" }}>
               Chapter II
+            </p>
+            <h2
+              className="text-3xl font-bold mt-2"
+              style={{ fontFamily: "var(--font-playfair), Georgia, serif", color: "#3d2b1f" }}
+            >
+              Birthdays!
+            </h2>
+          </div>
+
+          <div className="clearfix max-w-2xl mx-auto space-y-5">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/birthday_cake.gif"
+              alt="A birthday cake"
+              className="float-left w-56 h-auto mr-8 mb-4 rounded-sm"
+            />
+            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+              Every kid has a birthday cake. Not every kid is lucky enough to have a mom
+              who makes a Boston cream pie from scratch. The first time I tasted it, I
+              didn&apos;t know what it was — only that it was the best thing I had ever
+              eaten. A cloud of vanilla pastry cream sandwiched between two golden cake
+              layers, the whole thing draped in a dark chocolate ganache that set just
+              right. It was a revelation.
+            </p>
+            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+              After that, there was really only one answer to the question of what I
+              wanted for my birthday. Every year, without exception. Friends could have
+              their sheet cakes with the frosting rosettes — I had discovered something
+              better, and I was not letting it go. Mom made it every time, without complaint,
+              and it was perfect every time.
+            </p>
+            <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
+              It is one of those foods that is permanently tied to a feeling — the specific
+              joy of a birthday morning, the anticipation of knowing exactly what was
+              coming after dinner. A culinary discovery that became a birthday tradition,
+              and a tradition that became one of the great gifts of growing up.
+            </p>
+            <p className="text-base leading-8" style={{ color: "#7a6552" }}>
+              🎂 <em>&ldquo;What do you want for your birthday?&rdquo; The answer was always the same. It was always Boston cream pie.&rdquo;</em> 🎂
+            </p>
+          </div>
+        </section>
+
+        <SectionDivider />
+
+        {/* Chapter III */}
+        <section className="py-16">
+          <div className="text-center mb-12">
+            <p className="text-xs tracking-[0.3em] uppercase" style={{ color: "#c2956b" }}>
+              Chapter III
             </p>
             <h2
               className="text-3xl font-bold mt-2"
@@ -193,11 +250,11 @@ export default function Home() {
 
         <SectionDivider />
 
-        {/* Chapter III */}
+        {/* Chapter IV */}
         <section className="py-16">
           <div className="text-center mb-12">
             <p className="text-xs tracking-[0.3em] uppercase" style={{ color: "#c2956b" }}>
-              Chapter III
+              Chapter IV
             </p>
             <h2
               className="text-3xl font-bold mt-2"
@@ -304,11 +361,11 @@ export default function Home() {
 
         <SectionDivider />
 
-        {/* Chapter IV */}
+        {/* Chapter V */}
         <section className="py-16">
           <div className="text-center mb-12">
             <p className="text-xs tracking-[0.3em] uppercase" style={{ color: "#c2956b" }}>
-              Chapter IV
+              Chapter V
             </p>
             <h2
               className="text-3xl font-bold mt-2"
@@ -359,11 +416,11 @@ export default function Home() {
 
         <SectionDivider />
 
-        {/* Chapter V */}
+        {/* Chapter VI */}
         <section className="py-16">
           <div className="text-center mb-12">
             <p className="text-xs tracking-[0.3em] uppercase" style={{ color: "#c2956b" }}>
-              Chapter V
+              Chapter VI
             </p>
             <h2
               className="text-3xl font-bold mt-2"
@@ -414,11 +471,11 @@ export default function Home() {
 
         <SectionDivider />
 
-        {/* Chapter VI */}
+        {/* Chapter VII */}
         <section className="pt-16 pb-8">
           <div className="text-center mb-12">
             <p className="text-xs tracking-[0.3em] uppercase" style={{ color: "#c2956b" }}>
-              Chapter VI
+              Chapter VII
             </p>
             <h2
               className="text-3xl font-bold mt-2"
