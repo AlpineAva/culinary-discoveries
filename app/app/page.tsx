@@ -226,7 +226,7 @@ export default function Home() {
             <img
               src="/tomato_soup.gif"
               alt="A steaming bowl of Mom's tomato soup and noodles"
-              className="float-left w-64 h-auto mr-8 mb-4"
+              className="float-left w-56 h-auto mr-8 mb-4"
             />
             <div className="space-y-5">
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
