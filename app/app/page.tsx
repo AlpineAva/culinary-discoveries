@@ -96,7 +96,7 @@ export default function Home() {
           className="text-sm tracking-widest uppercase mt-6"
           style={{ color: "#c2956b" }}
         >
-          From the three kids who loved your food the most
+          From the family who loved your food the most
         </p>
       </header>
 
@@ -251,9 +251,9 @@ export default function Home() {
                 understand it at the time.  A tomato sandwich?  Yuck!
               </p>
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-                But now I love them too.  I make sure to make one whenever I have a ripe garden
-                tomato, and I think of Mom every time. It took me years to discover this delicious
-                treat that she already knew.
+                But now I love them too. I make sure to make one whenever I have a ripe garden
+                tomato, and I think of Mom every time. It took me years to come around to what
+                she had always known — that the simplest things, made with the best ingredients, are often the best.
               </p>
             </div>
           </div>
@@ -279,14 +279,13 @@ export default function Home() {
               </h3>
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
                 Come summer, when the strawberry patch finally came in, there was only one
-                destination for the best of the harvest: the pie. A glossy, jewel-bright
+                destination for the berries we didn't eat or make jam with: strawberry pie! A glossy, jewel-bright
                 strawberry pie with a buttery crust, served still slightly warm with a
                 generous scoop of vanilla ice cream melting alongside it.
               </p>
               <p className="text-base leading-8" style={{ color: "#5c4a3a" }}>
-                There was no better summer treat. Full stop. It was the taste of the whole
-                season distilled into one perfect slice — the garden, the sunshine, and the
-                satisfaction of having grown it ourselves.
+                There was no better summer treat. It was the taste of the an expert baker and
+                a summer strawberry patch distilled into one perfect slice.
               </p>
               <p className="text-base leading-8" style={{ color: "#7a6552" }}>
                 🌽 🍅 🍓 <em>&ldquo;The best things in summer come from the garden.&rdquo;</em> 🍓 🍅 🌽
